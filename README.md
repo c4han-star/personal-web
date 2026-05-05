@@ -1,5 +1,7 @@
 # Personal website — Finnick Chen
 
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9Yu-ry0Z)
+
 ## Live site
 
 **Open in your browser:** [https://finnickchen.site/](https://finnickchen.site/)
@@ -8,9 +10,9 @@ Paste the URL into the address bar, or Cmd/Ctrl-click the link above.
 
 The visual design was created in **Figma** and published to that URL. This repository is the **HTML / CSS / JavaScript** source code for the same site (colors, typography, and image assets match the live version).
 
-## Repository
+## Course repository
 
-**GitHub:** [https://github.com/c4han-star/personal-web](https://github.com/c4han-star/personal-web)
+**GitHub:** [https://github.com/GIX-Luyao/personal-web-c4han-star](https://github.com/GIX-Luyao/personal-web-c4han-star)
 
 ## What’s included
 
@@ -26,8 +28,8 @@ No build step. Use any static file server.
 ### Python 3
 
 ```bash
-git clone https://github.com/c4han-star/personal-web.git
-cd personal-web
+git clone https://github.com/GIX-Luyao/personal-web-c4han-star.git
+cd personal-web-c4han-star
 python3 -m http.server 8080
 ```
 
@@ -36,13 +38,13 @@ Then open [http://localhost:8080](http://localhost:8080).
 ### Node (npx)
 
 ```bash
-cd personal-web
+cd personal-web-c4han-star
 npx --yes serve -l 8080
 ```
 
 ## Optional: GitHub Pages
 
-In the repo on GitHub: **Settings → Pages → Build and deployment** — deploy from the `main` branch with folder `/ (root)` to get a URL like `https://c4han-star.github.io/personal-web/`.
+In this repo on GitHub: **Settings → Pages → Build and deployment** — deploy from the `main` branch with folder `/ (root)` to publish a Pages URL (for example `https://gix-luyao.github.io/personal-web-c4han-star/` if enabled for the organization).
 
 ## Customize
 
