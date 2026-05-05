@@ -2,13 +2,13 @@
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9Yu-ry0Z)
 
-## Live site
+## View the site (recommended)
 
-**Open in your browser:** [https://finnickchen.site/](https://finnickchen.site/)
+**Use your browser and open:** [https://finnickchen.site/](https://finnickchen.site/)
 
-Paste the URL into the address bar, or Cmd/Ctrl-click the link above.
+That is the published site. **Please view it only by opening that link in a browser** (paste into the address bar or Cmd/Ctrl-click). **Do not run a local server or follow “run locally” steps** to grade or preview the assignment—the live site is the reference.
 
-The visual design was created in **Figma** and published to that URL. This repository is the **HTML / CSS / JavaScript** source code for the same site (colors, typography, and image assets match the live version).
+The design was built in **Figma** and published at that URL. This repository is the **HTML / CSS / JavaScript** source for the same page (colors, typography, and assets). Use the live link for viewing; use this repo on GitHub to inspect or submit code.
 
 ## Course repository
 
@@ -21,30 +21,9 @@ The visual design was created in **Figma** and published to that URL. This repos
 - `script.js` — mobile navigation and footer year
 - `assets/` — `logo.png`, `hero-bg.png`
 
-## Run locally
-
-No build step. Use any static file server.
-
-### Python 3
-
-```bash
-git clone https://github.com/GIX-Luyao/personal-web-c4han-star.git
-cd personal-web-c4han-star
-python3 -m http.server 8080
-```
-
-Then open [http://localhost:8080](http://localhost:8080).
-
-### Node (npx)
-
-```bash
-cd personal-web-c4han-star
-npx --yes serve -l 8080
-```
-
 ## Optional: GitHub Pages
 
-In this repo on GitHub: **Settings → Pages → Build and deployment** — deploy from the `main` branch with folder `/ (root)` to publish a Pages URL (for example `https://gix-luyao.github.io/personal-web-c4han-star/` if enabled for the organization).
+Only if your course requires a second hosted copy: **Settings → Pages → Build and deployment** — deploy from `main` with folder `/ (root)`. **For normal viewing, still use [finnickchen.site](https://finnickchen.site/) in the browser** rather than running the project on your machine.
 
 ## Customize
 
