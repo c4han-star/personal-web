@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Finnick Chen — portfolio for research, roles, and collaborations."
+    />
+    <title>Finnick Chen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-bg" aria-hidden="true">
+      <img src="assets/hero-bg.png" alt="" class="page-bg__img" width="1920" height="1080" />
+    </div>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="#top" aria-label="Finnick Chen home">
+          <img src="assets/logo.png" alt="Finnick Chen" width="183" height="42" />
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a class="site-nav__link" href="#work">Work</a>
+          <a class="site-nav__link" href="#about">About me</a>
+          <a
+            class="site-nav__link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a class="site-nav__link site-nav__link--cta" href="assets/resume.pdf"
+            >Resume</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Portfolio · Research · Collaboration</p>
+          <h1 class="hero__title">Finnick Chen</h1>
+          <p class="hero__lede">
+            Designer and builder focused on clear interfaces and reliable
+            systems. Below is a concise overview of selected work and background
+            for recruiters, graduate programs, and collaborators.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">View work</a>
+            <a class="btn btn--ghost" href="#about">About me</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section--work">
+        <div class="section__inner">
+          <h2 class="section__title">Selected work</h2>
+          <p class="section__intro">
+            A sample layout for projects, research, and teaching—edit titles,
+            descriptions, and links to match your own work.
+          </p>
+          <ul class="card-grid">
+            <li>
+              <article class="card">
+                <h3 class="card__title">Project Alpha</h3>
+                <p class="card__text">
+                  One-line impact: what you built, who it helped, and the
+                  outcome you can quantify.
+                </p>
+                <a class="card__link" href="#">Details →</a>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <h3 class="card__title">Research / publication</h3>
+                <p class="card__text">
+                  Venue, year, and a plain-language summary for non-specialist
+                  readers.
+                </p>
+                <a class="card__link" href="#">Read more →</a>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <h3 class="card__title">Open source / teaching</h3>
+                <p class="card__text">
+                  Course materials, tooling, or community work that shows how
+                  you work with others.
+                </p>
+                <a class="card__link" href="#">Repository →</a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="section section--about">
+        <div class="section__inner section__inner--split">
+          <div>
+            <h2 class="section__title">About me</h2>
+            <p class="prose">
+              Add a short biography here: current role or program, the problems
+              you care about, and what you are looking for next. Keeping this
+              section brief helps busy readers understand your focus quickly.
+            </p>
+            <p class="prose">
+              <strong>Contact:</strong>
+              <a href="mailto:hello@finnickchen.site">hello@finnickchen.site</a>
+            </p>
+          </div>
+          <aside class="about-aside" aria-label="Highlights">
+            <h3 class="about-aside__title">Highlights</h3>
+            <ul class="about-aside__list">
+              <li>Education and current affiliation</li>
+              <li>Core skills or research methods</li>
+              <li>What you are seeking next (role, program, or collaboration)</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Finnick Chen</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
